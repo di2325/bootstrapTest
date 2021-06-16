@@ -1,0 +1,197 @@
+/*
+#FCECDD
+#FFC288
+#FEA82F
+#FF6701
+*/
+/* ========================================================================== */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 2rem;
+}
+
+body {
+  text-align: center;
+  background-color: #FCECDD;
+  overflow-x: hidden;
+}
+
+/* ========================================================================== */
+/* TITLE SECTION */
+/* ========================================================================== */
+/* nav{
+  background-color: #FF6701;
+} */
+#title {
+  background-color: #FEA82F;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* nav bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* title */
+.title_div {
+  padding: 1rem;
+}
+
+.download_button {
+  margin: 5% 3% 5% 0;
+}
+
+.title_image {
+  width: 400px;
+  right: 18%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+.big_heading {
+  text-align: left;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+/* Mobile phones */
+@media (max-width: 1028px) {
+  .big_heading {
+    text-align: center;
+  }
+
+  .title_image {
+    position: static;
+    transform: rotate(0);
+    width: 200px;
+  }
+}
+
+/* ========================================================================== */
+/* FEATURES SECTION */
+/* ========================================================================== */
+#features {
+  background-color: #FCECDD;
+  position: relative;
+  z-index: 1;
+}
+
+.feature_div {
+  padding: 1rem 2rem;
+}
+
+.feature_icon {
+  color: #FEA82F;
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.feature_icon:hover {
+  color: #FF6701;
+}
+
+/* ========================================================================== */
+/* TESTIMONIALS SECTION */
+/* ========================================================================== */
+#testimonials {
+  /* padding: 6% 10% 3%; */
+  background-color: #FFC288;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-item {
+  padding: 6% 10% 3%;
+}
+
+/* ========================================================================== */
+/* PRESS SECTION */
+/* ========================================================================== */
+#press {
+  padding: 3% 10%;
+  background-color: #FFC288;
+  position: relative;
+  z-index: 1;
+}
+
+.press_logo {
+  width: 10rem;
+  margin: 20px;
+}
+
+/* ========================================================================== */
+/* PRICING SECTION */
+/* ========================================================================== */
+#pricing {
+  padding: 3% 10%;
+}
+
+.card {
+  height: 25rem;
+}
+
+.pricing_buttom {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF6701;
+  border-color: #FF6701;
+}
+
+.pricing_buttom:hover {
+  background-color: #FFC288;
+  border-color: #FEA82F;
+}
+
+/* ========================================================================== */
+/* CALL TO ACTION SECTION */
+/* ========================================================================== */
+#cta {
+  padding: 3% 10% 0;
+  background-color: #FEA82F;
+}
+
+.download_button_cta {
+  margin: 3%;
+}
+
+/* ========================================================================== */
+/* FOOTER */
+/* ========================================================================== */
+#footer {
+  padding: 3% 10% 0;
+}
+
+.footer_ico {
+  font-size: 125%;
+  margin: 0 1%;
+}
+
+/* ========================================================================== */
